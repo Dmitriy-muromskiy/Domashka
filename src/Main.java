@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // объявление переменных
+        // Задание №1
         byte b = -57;
         short s = 777;
         int i = 25464;
@@ -78,10 +78,50 @@ public class Main {
         short lossWheight2 = 500;
         int lossDay1 = gramm / lossWheight1;
         int lossDay2 = gramm / lossWheight2;
+        float averageValue = (float) (lossDay1 + lossDay2)/2;
         System.out.println("При худении по " + lossWheight1 + " грамм в день, чтоб сбросить 7 кг потребуемся "
         + lossDay1 + " дней");
         System.out.println("При худении по " + lossWheight2 + " грамм в день, чтоб сбросить 7 кг потребуемся "
         + lossDay2 + " дней");
+        System.out.println("В среднем потребуется " + averageValue + " день");
+
+
+        // Задание №8
+
+        int masha = 67760;
+        int den = 83690;
+        int kris = 76230;
+        float percent = 0.1f;
+
+        int moneyMashaYear = masha * 12;
+        int moneyDenYear = den * 12;
+        int moneyKrisYear = kris * 12;
+
+
+        float moneyMashaAfter = masha + (masha * percent);
+        float moneyDenAfter = den + (den * percent);
+        float moneyKrisAfter = kris + (kris * percent);
+
+
+        float moneyMashaAfYear = moneyMashaAfter * 12;
+        float moneyDenAfYear = moneyDenAfter * 12;
+        float moneyKrisAfYear = moneyKrisYear * 12;
+
+
+        float differMasha = moneyMashaAfYear - moneyMashaYear;
+        float differDen = moneyDenAfYear - moneyDenYear;
+        float differKris = moneyKrisAfYear - moneyKrisYear;
+        System.out.println("Маша теперь получает " + moneyMashaAfter + " рублей. Годовой доход вырос на "
+            + differMasha + " рублей.");
+        System.out.println("Денис теперь получает " + moneyDenAfter + " рублей. Годовой доход вырос на "
+                + differDen + " рублей.");
+        System.out.println("Кристина теперь получает " + moneyKrisAfter + " рублей. Годовой доход вырос на "
+                + differKris + " рублей.");
+
+
+
+
+
 
 
 
