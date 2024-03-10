@@ -62,6 +62,15 @@ public class Main {
 
         // Задание №6
 
+        byte banans = 80;
+        byte milk100 = 105;
+        byte iceCream = 100;
+        byte egg = 70;
+        float mixerGr = (banans * 5) + (milk100 * 2) + (iceCream * 2) + (egg * 4);
+        float mixerKg = mixerGr /1000;
+        System.out.println("Вес спортзавтрака " + mixerGr + " гр." + "\n"
+        + "Вес спортзавтрака " + mixerKg + " кг");
+
 
 
 
