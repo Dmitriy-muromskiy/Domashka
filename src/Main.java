@@ -24,7 +24,7 @@ public class Main {
         int num6 = 27897;
         byte num7 = 67;
 
-        // Задание 3
+        // Задание №3
 
         byte clasLydi = 23;
         byte clasAnni = 27;
@@ -32,6 +32,25 @@ public class Main {
         short paper = 480;
         int paperStudent = paper/(clasAnni + clasLydi + clasKati);
         System.out.println("На каждого ученика рассчитано " + paperStudent + " листов бумаги");
+
+        // Задание №4
+        byte zaMinuts = 16 /2;
+        short twentiMinuts = (short) (20 * zaMinuts);
+        System.out.println("За 20 минут машина произвела " + twentiMinuts + " штук бутылок");
+
+        short minutDay = 60 * 24;
+        int zaDay = minutDay * 8;
+        System.out.println("За сутки машина произвела " + zaDay + " штук бутылок");
+
+        int truDay = zaDay * 3;
+        System.out.println("За три дня машина произвела " + truDay + " штук бутылок");
+
+        long month = zaDay * 30;
+        System.out.println("За месяц машина произвела " + month + " штук бутылок");
+
+
+
+
 
 
 
