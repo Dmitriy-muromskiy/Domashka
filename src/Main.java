@@ -14,7 +14,26 @@ public class Main {
         System.out.println("Значение переменной f с типом переменной float равно " + f);
         System.out.println("Значение переменной d с типом переменной double равно " + d);
 
-        //задание №2
+        //Задание №2
+
+        float num1 = (float) 27.12;
+        long num2 = 987678965549L;
+        double num3 = 2.786;
+        short num4 = 569;
+        short num5 = -159;
+        int num6 = 27897;
+        byte num7 = 67;
+
+        // Задание 3
+
+        byte clasLydi = 23;
+        byte clasAnni = 27;
+        byte clasKati = 30;
+        short paper = 480;
+        int paperStudent = paper/(clasAnni + clasLydi + clasKati);
+        System.out.println("На каждого ученика рассчитано " + paperStudent + " листов бумаги");
+
+
 
 
 
