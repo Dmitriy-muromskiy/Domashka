@@ -48,6 +48,26 @@ public class Main {
         long month = zaDay * 30;
         System.out.println("За месяц машина произвела " + month + " штук бутылок");
 
+        // Задание №5
+
+        byte allPaint = 120;
+        byte whitePaint = 2;
+        byte brownPaint = 4;
+        int whiteBrown = whitePaint + brownPaint;
+        int allClass = allPaint/whiteBrown;
+        int whiteCan = allClass * whitePaint;
+        int brownCan = allClass * brownPaint;
+        System.out.println("В школе, где " + allClass + " классов, нужно " + whiteCan + " банок белой краски и "
+        + brownCan + " банок коричневой краски.");
+
+        // Задание №6
+
+
+
+
+
+
+
 
 
 
