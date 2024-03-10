@@ -71,6 +71,28 @@ public class Main {
         System.out.println("Вес спортзавтрака " + mixerGr + " гр." + "\n"
         + "Вес спортзавтрака " + mixerKg + " кг");
 
+        // Задание №7
+
+        int gramm = 7000;
+        short lossWheight1 = 250;
+        short lossWheight2 = 500;
+        int lossDay1 = gramm / lossWheight1;
+        int lossDay2 = gramm / lossWheight2;
+        System.out.println("При худении по " + lossWheight1 + " грамм в день, чтоб сбросить 7 кг потребуемся "
+        + lossDay1 + " дней");
+        System.out.println("При худении по " + lossWheight2 + " грамм в день, чтоб сбросить 7 кг потребуемся "
+        + lossDay2 + " дней");
+
+
+
+
+
+
+
+
+
+
+
 
 
 
