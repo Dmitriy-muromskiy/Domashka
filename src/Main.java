@@ -7,12 +7,12 @@ public class Main {
         long l = 64646L;
         float f = -46.57647f;
         double d = 647.6353555626;
-        System.out.println("Значение переменной b с типом переменной byte равно " + b);
-        System.out.println("Значение переменной s с типом переменной short равно " + s);
-        System.out.println("Значение переменной i с типом переменной int равно " + i);
-        System.out.println("Значение переменной l с типом переменной long равно " + l);
-        System.out.println("Значение переменной f с типом переменной float равно " + f);
-        System.out.println("Значение переменной d с типом переменной double равно " + d);
+        System.out.println("Значение переменной b с типом byte равно " + b);
+        System.out.println("Значение переменной s с типом short равно " + s);
+        System.out.println("Значение переменной i с типом int равно " + i);
+        System.out.println("Значение переменной l с типом long равно " + l);
+        System.out.println("Значение переменной f с типом float равно " + f);
+        System.out.println("Значение переменной d с типом double равно " + d);
 
         //Задание №2
 
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("За 20 минут машина произвела " + twentiMinuts + " штук бутылок");
 
         short minutDay = 60 * 24;
-        int zaDay = minutDay * 8;
+        int zaDay = minutDay * zaMinuts;
         System.out.println("За сутки машина произвела " + zaDay + " штук бутылок");
 
         int truDay = zaDay * 3;
@@ -88,14 +88,15 @@ public class Main {
 
         // Задание №8
 
+        byte yer = 12;
         int masha = 67760;
         int den = 83690;
         int kris = 76230;
         float percent = 0.1f;
 
-        int moneyMashaYear = masha * 12;
-        int moneyDenYear = den * 12;
-        int moneyKrisYear = kris * 12;
+        int moneyMashaYear = masha * yer;
+        int moneyDenYear = den * yer;
+        int moneyKrisYear = kris * yer;
 
 
         float moneyMashaAfter = masha + (masha * percent);
@@ -103,9 +104,9 @@ public class Main {
         float moneyKrisAfter = kris + (kris * percent);
 
 
-        float moneyMashaAfYear = moneyMashaAfter * 12;
-        float moneyDenAfYear = moneyDenAfter * 12;
-        float moneyKrisAfYear = moneyKrisYear * 12;
+        float moneyMashaAfYear = moneyMashaAfter * yer;
+        float moneyDenAfYear = moneyDenAfter * yer;
+        float moneyKrisAfYear = moneyKrisAfter * yer;
 
 
         float differMasha = moneyMashaAfYear - moneyMashaYear;
