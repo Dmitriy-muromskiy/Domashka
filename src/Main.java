@@ -73,6 +73,26 @@ public class Main {
 
         // Задание №7
 
+        int one = 55;
+        int two = 199;
+        int three = 122;
+        int maxNum;
+         if (one > two && one > three) {
+             maxNum = one;
+             System.out.println("Число one равно " + maxNum + " и оно наибольше");
+             return;
+         } if (two > one && two > three) {
+             maxNum = two;
+            System.out.println("Число two равно " + maxNum +" и оно наибольше");
+         }
+         else { maxNum = three;
+            System.out.println("Число three равно " + maxNum + " и оно наибольше");
+
+
+
+
+         }
+
 
 
     }
