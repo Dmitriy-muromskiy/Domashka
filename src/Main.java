@@ -55,5 +55,25 @@ public class Main {
 
         }
         // Задание №6
-    }  //
+
+        short allPlace = 102;
+        short sitPl = 60;
+        short standPl = (short) (allPlace - sitPl);
+        short ticketSit = 59;
+        short ticketStand = 42;
+        short freePlaceSit = (short) (sitPl - ticketSit);
+        short freePlaceStand = (short) (standPl - ticketStand);
+        int freePlace = allPlace - (freePlaceStand + freePlaceSit);
+        if ( freePlace >= allPlace) {
+            System.out.println("В вагон нет свободных мест");
+            } else {
+            System.out.println("В вагоне есть " + freePlaceSit + " сидячих мест и " +
+                    freePlaceStand + " стоячих мест");
+            }
+
+        // Задание №7
+
+
+
+    }
 }
