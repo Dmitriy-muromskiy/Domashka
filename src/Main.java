@@ -39,13 +39,13 @@ public class Main {
         // task 4
         int deliveryDistance = 95;
         if (deliveryDistance <= 20) {
-            System.out.println(" Потребуется дней: 1");
+            System.out.println("Потребуется дней: 1");
         } else if (deliveryDistance < 60) {
-            System.out.println(" Потребуется дней: 2");
-        } else if (deliveryDistance < 100 || deliveryDistance >= 100) {
-            System.out.println(" Потребуестся дней: 3");
+            System.out.println("Потребуется дней: 2");
+        } else if (deliveryDistance < 100) {
+            System.out.println("Потребуестся дней: 3");
         } else {
-            System.out.println(" Доставки нет");
+            System.out.println("Свыше 100 км доставки нет");
         }
 
         // task 5
