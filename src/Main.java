@@ -17,7 +17,7 @@ public class Main {
             if (clientDeviceYear < 2015) {
                 System.out.println(" Установите облегченную версию приложения для iOS по ссылке");
             } else {
-                System.out.println(" Установите версию приложени для iOS по ссылке");
+                System.out.println(" Установите версию приложения для iOS по ссылке");
             }
         } else if (clientOs == 1) {
             if (clientDeviceYear < 2015) {
@@ -40,45 +40,42 @@ public class Main {
         int deliveryDistance = 95;
         if (deliveryDistance <= 20) {
             System.out.println(" Потребуется дней: 1");
-        } else if (deliveryDistance < 60){
+        } else if (deliveryDistance < 60) {
             System.out.println(" Потребуется дней: 2");
-        } else if (deliveryDistance < 100) {
+        } else if (deliveryDistance < 100 || deliveryDistance >= 100) {
             System.out.println(" Потребуестся дней: 3");
-        }
-        else {
+        } else {
             System.out.println(" Доставки нет");
         }
 
         // task 5
-        int monthNumber = 14;
-        switch (monthNumber) {
-            case 12:
-            case 1:
-            case 2:
-                System.out.println("Сейчас зима");
-                break;
-            case 3:
-            case 4:
-            case 5:
-                System.out.println(" Сейчас весна");
-                break;
-            case 6:
-            case 7:
-            case 8:
-                System.out.println(" Сейчас лето");
-                break;
-            case 9:
-            case 10:
-            case 11:
-                System.out.println(" Сейчас осень");
-                break;
-            default:
-                System.out.println(" Такого месяца нет");
-
-
-
+        int monthNumber = 3;
+        if (monthNumber <= 12) {
+            switch (monthNumber) {
+                case 12:
+                case 1:
+                case 2:
+                    System.out.println("Сейчас зима");
+                    break;
+                case 3:
+                case 4:
+                case 5:
+                    System.out.println(" Сейчас весна");
+                    break;
+                case 6:
+                case 7:
+                case 8:
+                    System.out.println(" Сейчас лето");
+                    break;
+                case 9:
+                case 10:
+                case 11:
+                    System.out.println(" Сейчас осень");
+                    break;
+            }
+        } else {
+            System.out.println(" Такого месяца нет");
         }
-
 
     }
 
